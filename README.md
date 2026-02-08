@@ -1,5 +1,5 @@
 
-# Sistema de Controle de Estoque e Vendas (PIM 2024) 📦
+# Sistema de Controle de Estoque e Vendas (PIM 2024) 📦 - Faculdade
 
 Este projeto é um sistema desenvolvido em linguagem **C** para gerenciamento de estoque, registro de vendas e controle de caixa. Ele foi criado como parte do Projeto Integrado Multidisciplinar (PIM) de 2024.
 
@@ -34,14 +34,14 @@ O sistema permite cadastrar produtos (frutas, verduras, legumes, orgânicos), re
 Para rodar o projeto, você precisa de um compilador C (como GCC).
 
 1. **Compile os arquivos:**
-   bash
+   ```bash
    gcc main.c estoque.c -o sistema_estoque
 
 ```
 
 2. **Execute o programa:**
 * **Windows:**
-bash
+```bash
 sistema_estoque.exe
 
 ```
@@ -52,6 +52,8 @@ sistema_estoque.exe
 ./sistema_estoque
 
 ```
+
+
 
 
 
@@ -67,3 +69,4 @@ Ao iniciar, o sistema carregará os dados existentes. O menu principal oferece a
 6. **Fechamento de Caixa:** Finaliza o dia, gerando o relatório financeiro e de doações.
 
 ---
+
